@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnAddClicked(View view) {
-        if(CheckNumberInputs()){
+        if(!CheckNumberInputs()){
             return;
         }
 
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnMinusClicked(View view) {
-        if(CheckNumberInputs()){
+        if(!CheckNumberInputs()){
             return;
         }
 
